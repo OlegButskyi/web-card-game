@@ -23,10 +23,10 @@ public class AccountAchievementDaoImplTest extends DbTest {
         List<AccountAchievementEntity>accountAchievementEntities = achievementDao.getUserAchievementsList(2);
 
         for (int i = 0; i < accountAchievementEntities.size(); i++) {
-            System.out.println(accountAchievementEntities.get(i).getId() + " ");
-            System.out.println(accountAchievementEntities.get(i).getAccountAchievementId() + " ");
-            System.out.println(accountAchievementEntities.get(i).getAchievementId() + " ");
-            System.out.println(accountAchievementEntities.get(i).getAmount() + " ");
+            System.out.print(accountAchievementEntities.get(i).getId() + ". ");
+            System.out.print(accountAchievementEntities.get(i).getAccountAchievementId() + ". ");
+            System.out.print(accountAchievementEntities.get(i).getAchievementId() + ". ");
+            System.out.print(accountAchievementEntities.get(i).getAmount() + ". ");
         }
         assertFalse(accountAchievementEntities.isEmpty());
     }

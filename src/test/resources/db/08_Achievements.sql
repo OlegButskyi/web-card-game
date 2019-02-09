@@ -66,3 +66,18 @@ VALUES
   ('Chemical plant', 'Mushrooms? No way only good drug', 118),
   ('Underground laboratory', 'I tired make meth in basement and found alternative', 119),
   ('Business training on the bench near a porch', 'Special events homeless ', 120);
+
+INSERT INTO `Account_Achievement`
+  (`account_id` , `achievement_id`, `amount`)
+VALUES
+  (1,2,3),
+  (1,1,1),
+  (2,1,1),
+  (2,2,1),
+  (2,3,4),
+  (3,1,1),
+  (3,15,2),
+  (3,10,2),
+  (3,5,3),
+  (2,4,6),
+  (4,1,3);
